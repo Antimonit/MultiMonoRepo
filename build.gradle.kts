@@ -1,3 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.6.21"
+    `kotlin-dsl`
+}
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
 }
