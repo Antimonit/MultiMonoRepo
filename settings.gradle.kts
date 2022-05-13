@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 
 include(":app")
+include(":featureOne")
+project(":featureOne").projectDir = file("features/featureOne")
+include(":featureTwo")
+project(":featureTwo").projectDir = file("features/featureTwo")
