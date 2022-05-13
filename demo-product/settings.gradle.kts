@@ -1,4 +1,4 @@
-rootProject.name = "main-product"
+rootProject.name = "demo-product"
 
 pluginManagement {
     repositories {
