@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":featureOne"))
+    api(project(":featureOne"))
 }
