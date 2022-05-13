@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm")
+    id("com.sample.gradle.kotlin")
 }
 
 dependencies {
