@@ -7,5 +7,6 @@ dependencyResolutionManagement {
 }
 
 includeBuild("main-product")
+includeBuild("demo-product")
 includeBuild("features")
 includeBuild("build-logic")
