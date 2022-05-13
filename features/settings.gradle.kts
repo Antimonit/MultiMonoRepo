@@ -4,7 +4,7 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
     }
-    includeBuild("build-logic")
+    includeBuild("../build-logic")
 }
 
 dependencyResolutionManagement {

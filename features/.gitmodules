@@ -1,4 +1,0 @@
-[submodule "build-logic"]
-	path = build-logic
-	url = git@github.com:Antimonit/MultiMonoRepo-BuildLogic.git
-	branch = master

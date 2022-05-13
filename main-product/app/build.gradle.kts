@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":featureTwo"))
+    implementation("features:featureTwo")
 }

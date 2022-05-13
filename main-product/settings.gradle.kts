@@ -4,7 +4,7 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
     }
-    includeBuild("build-logic")
+    includeBuild("../build-logic")
 }
 
 dependencyResolutionManagement {
@@ -13,8 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
+includeBuild("../features")
+
 include(":app")
-include(":featureOne")
-project(":featureOne").projectDir = file("features/featureOne")
-include(":featureTwo")
-project(":featureTwo").projectDir = file("features/featureTwo")

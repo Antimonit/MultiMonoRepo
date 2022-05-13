@@ -5,3 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+includeBuild("main-product")
+includeBuild("features")
+includeBuild("build-logic")
